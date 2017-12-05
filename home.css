@@ -18,12 +18,11 @@ a {
 	position:relative
 }
 .menu li a {
-	padding:10px;
-	height:50px;
-	/*background:#999;*/
+	width: 170px;
+	height:35px;
 	color:#fff;
 	text-align:center;
-	line-height:50px
+	line-height:35px
 }
 .menu li a:hover{
 	opacity: 1;
@@ -32,7 +31,6 @@ a {
 .menu_list {
 	position:absolute;
 	left:0;
-	top:50px;
 	perspective:400px;
 	height:0;
 }
@@ -159,6 +157,15 @@ a {
 		background: rgb(23,31,38);
 
 	}
+	.BBD-footer-info{
+		width: 1024px;
+		margin: auto;
+		color:white;	
+	}
+	.BBD-footer-info div{
+		height: 120px;
+		line-height: 120px;
+	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -197,6 +204,7 @@ a {
 		background: rgb(23,31,38);
 
 	}
+
 }
 
 @media screen and (max-width: 620px) {
@@ -281,5 +289,10 @@ a {
 	    -ms-transition: .4s;
 	    transition: .4s;
 
+   }
+   .menu-mobile .menu-text{
+   	 font-size: 16px;
+   	 color: cadetblue;
+   	 padding: 5px 5px;
    }
 }
