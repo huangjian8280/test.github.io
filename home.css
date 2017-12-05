@@ -5,6 +5,7 @@
 body{
 	width: 100%;
 	height: 100%;
+	font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 ul,li {
 	list-style:none
@@ -91,6 +92,20 @@ a {
 .menu_list li:nth-child(8) {
 	transition-delay:0ms
 }
+.menu .English{
+	width: 80px;
+	float: right;
+	height: 35px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+
+}
+.menu .English:hover{
+	opacity: 1;
+    color: #1094e8;
+}
 
 /*---------------------------------------------------*/
 @font-face {font-family: "iconfont";
@@ -139,9 +154,7 @@ a {
 		width: 1024px;
 		margin: auto;
 	}
-	.menu .English{
-		float: right;
-	}
+
 	.BBD-introduce{
 		width: 1024px;
 	    margin: 50px auto;
@@ -186,9 +199,7 @@ a {
 		width: 100%;
 		margin: auto;
 	}
-	.menu .English{
-		float: right;
-	}
+
 	.BBD-introduce{
 		width: 100%;
 	    margin: 50px auto;
@@ -204,17 +215,46 @@ a {
 		background: rgb(23,31,38);
 
 	}
+	.BBD-footer-info{
+		width: 100%;
+		margin: auto;
+		color:white;	
+	}
 
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 875px) {
 	body{
+		width: 100%;
 		position: absolute;
 		left: 0px;
 	}
    .menu{
    	display: none;
    }
+
+	header{
+		width: 100%;
+		height: 485px;
+		background: rgb(23,31,38);
+		overflow: hidden;
+
+	}
+   	.BBD-introduce{
+		width: 100%;
+	    margin: 50px auto;
+	    text-align: center;
+	}
+	.BBD-content{
+		width: 100%;
+		height: 700px;
+	}
+	.BBD-footer{
+		width: 100%;
+		height: 120px;
+		background: rgb(23,31,38);
+
+	}
    .menu-mobile{
 		display: block;
 	}
@@ -295,4 +335,11 @@ a {
    	 color: cadetblue;
    	 padding: 5px 5px;
    }
+   .BBD-footer-info{
+		width: 100%;
+		margin: auto;
+		color:white;
+		text-align: center;	
+		font-size: 12px;
+	}
 }
