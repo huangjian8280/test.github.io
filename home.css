@@ -200,6 +200,10 @@ a {
 }
 
 @media screen and (max-width: 620px) {
+	body{
+		position: absolute;
+		left: 0px;
+	}
    .menu{
    	display: none;
    }
@@ -271,5 +275,11 @@ a {
    }
    .mobile-nav-on{
    		overflow: hidden;
+   		left: 260px;
+   		 -webkit-transition: .4s;
+	    -moz-transition: .4s;
+	    -ms-transition: .4s;
+	    transition: .4s;
+
    }
 }
