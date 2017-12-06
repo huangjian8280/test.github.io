@@ -141,10 +141,7 @@ a {
 		height: 420px;
 		width: 100%;
 	}
-	.BBD-tabs-img img{
-		width: 100%;
-		height: 100%;
-	}
+
 /*---------------------------------------------------*/
 @font-face {font-family: "iconfont";
   src: url('iconfont.eot?t=1512437560847'); /* IE9*/
@@ -209,7 +206,10 @@ a {
 		overflow: hidden;
 	}
 
-
+	.BBD-tabs-img img{
+			width: 100%;
+			height: 100%;
+		}
 	.BBD-footer{
 		width: 100%;
 		height: 120px;
@@ -253,7 +253,7 @@ a {
 	}
 	.BBD-content{
 		width: 100%;
-		height: 700px;
+		height: 650px;
 	}
 
 	.BBD-content-page{
@@ -262,7 +262,10 @@ a {
 		margin: auto;
 		overflow: hidden;
 	}
-
+	.BBD-tabs-img img{
+		width: 100%;
+		height: 100%;
+	}
 	.BBD-footer{
 		width: 100%;
 		height: 120px;
@@ -385,6 +388,10 @@ a {
 	    transition: .4s;
 
    }
+   .BBD-tabs-img img{
+		width: 100%;
+		height: auto;
+	}
    .menu-mobile .menu-text{
    	 font-size: 16px;
    	 color: cadetblue;
