@@ -106,7 +106,45 @@ a {
 	opacity: 1;
     color: #1094e8;
 }
-
+/*----------------------------------------------------*/
+.BBD-tabs-content span{
+	white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 2px 5px;
+    white-space: nowrap;
+    max-width: 100%;
+    background: #fff;
+    border: solid 1px #e1e4e5;
+    font-size: 75%;
+    padding: 0 5px;
+    font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    color: #E74C3C;
+    overflow-x: auto;
+}
+	.BBD-tabs-title{
+		margin-top: 20px;
+    	margin-bottom: 30px;
+		
+	}
+	.BBD-tabs-title h2{
+		text-align: center;
+		font-size: 30px;
+		color: black;
+	}
+	.BBD-tabs-content p{
+		line-height: 24px;
+	    margin: 0;
+	    font-size: 16px;
+	    margin-bottom: 24px;
+	}
+	.BBD-tabs-img{
+		height: 420px;
+		width: 100%;
+	}
+	.BBD-tabs-img img{
+		width: 100%;
+		height: 100%;
+	}
 /*---------------------------------------------------*/
 @font-face {font-family: "iconfont";
   src: url('iconfont.eot?t=1512437560847'); /* IE9*/
@@ -162,8 +200,16 @@ a {
 	}
 	.BBD-content{
 		width: 100%;
-		height: 700px;
+		height: 650px;
 	}
+	.BBD-content-page{
+		width: 1024px;
+		height: 100%;
+		margin: auto;
+		overflow: hidden;
+	}
+
+
 	.BBD-footer{
 		width: 100%;
 		height: 120px;
@@ -209,6 +255,14 @@ a {
 		width: 100%;
 		height: 700px;
 	}
+
+	.BBD-content-page{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		overflow: hidden;
+	}
+
 	.BBD-footer{
 		width: 100%;
 		height: 120px;
@@ -226,12 +280,13 @@ a {
 @media screen and (max-width: 875px) {
 	body{
 		width: 100%;
-		position: absolute;
+		height: 100%;
+		position: relative;
 		left: 0px;
 	}
-   .menu{
-   	display: none;
-   }
+	.menu{
+	  display: none;
+	}
 
 	header{
 		width: 100%;
@@ -247,7 +302,7 @@ a {
 	}
 	.BBD-content{
 		width: 100%;
-		height: 700px;
+		height: 650px;
 	}
 	.BBD-footer{
 		width: 100%;
